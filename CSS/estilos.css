@@ -95,6 +95,15 @@ h1 {
 	margin-left: 5px;
 }
 
+.flutuante.texto{
+	width: 60%;
+}
+.flutuante.btn{
+	width: 35%;
+	position: absolute;
+	right :0;
+	margin-top: 50px;
+}
 .panel-interno p{
 	color: white;
 	font-size: 18px;
@@ -171,6 +180,11 @@ h1 {
 .barra-menu.active{
 	background-color: #e62e00;
 }
+.tabela{
+	color: white;
+	width: 100%;
+	margin-top: 20px;
+}
 #cancele{
 	background-image: url("../Imagens/close-white.png");
 	background-repeat: no-repeat;
@@ -236,6 +250,7 @@ h1 {
 	height: 600px;
 	margin: auto;
 	padding-top: 40px;
+	position: relative;
 
 }
 .rodape {
