@@ -3,7 +3,7 @@ html{
 	background-color: black;
   	overflow-x:hidden;
   	font-family: helvetica, sans-serif;
-
+  	line-height: 1;
 }
 body{
  	margin-top: 0; 
@@ -139,10 +139,10 @@ h1 {
 
 .barra-menu{
 	width: 100%;
-	height: 6px;
+	height: 5px;
 	background-color: #141414;
 	position: absolute;
-	bottom: 0;
+	bottom: 2px;
 }
 
 .barra-menu.active{
