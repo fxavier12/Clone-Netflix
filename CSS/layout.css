@@ -1,0 +1,133 @@
+/*
+* Francisco da Crux Xavier
+* 30/02/2017
+*
+* Layout basico netflix
+*/
+html{
+	background-color: black;
+  	overflow-x:hidden;
+  	font-family: helvetica, sans-serif;
+  	line-height: 1;
+}
+body{
+ 	margin-top: 0; 
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+h1 {
+	font-size: 77px;
+	margin-bottom: 0px;
+	margin-top: 12%;
+}
+
+
+.logo{
+	width: 30%;
+	margin-top: -15px;
+	margin-left: -2px;
+	
+}
+.header{
+	width: 100%;
+}
+
+.header ul{
+	width: 100%;
+	position: relative;
+	
+
+}
+.header ul li{
+	display: inline-block;
+	
+}
+
+.botao{
+	background-color: #df0712;
+	border-radius: 3px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+
+}
+.botao:hover{
+	background-color: #f40612;
+}
+
+.login{
+	position: absolute;
+	right: 6%;
+	top: 5%;
+
+}
+.topo{
+	width: 100%;
+    padding-bottom: 0px;
+    display: inline-table;
+    background: -webkit-linear-gradient(left  ,rgba(0,0,0,0.7),rgba(0,0,0,0)),
+    url("../Imagens/fundo.jpg") no-repeat; /*Safari 5.1-6*/
+    background-size: 100% 100%;
+}
+
+
+
+.conteudo{
+	height:495px;
+	color: white;
+	margin-left: 40px;
+	margin-top: 3px;
+
+
+}
+.conteudo p{
+	font-size: 26px;
+	margin-top: 15px;
+}
+.panel{
+	margin-top: 50px;
+	width: 100%;
+}
+.panel-interno{
+	width: 32%;
+	display: inline-block;
+	padding-left: 0;
+	margin-left: 5px;
+}
+
+.flutuante.texto{
+	width: 60%;
+}
+.flutuante.btn{
+	width: 35%;
+	position: absolute;
+	right :0;
+	margin-top: 50px;
+}
+.panel-interno p{
+	color: white;
+	font-size: 18px;
+}
+.panel-interno h3{
+	color: white;
+	font-size: 24px;
+}
+
+.panel-interno img{
+	width: 100%;
+}
+.flutuante {
+	width: 45%;
+	display: inline-block;
+	padding-left: 0;
+}
+
+.flutuante p {
+	color: white;
+	font-size: 27px;
+}
