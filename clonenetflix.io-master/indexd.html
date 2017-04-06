@@ -1,18 +1,26 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Netflix Brazil - Watch TV Shows Online, Watch Movies Online</title>
+		<title>Netflix Brasil - assistir a séries online, assistir a filmes online</title>
 		<!--layout geral da pagina-->
-		<link rel="stylesheet" type="text/css" href="../CSS/layout.css">
+		<link rel="stylesheet" type="text/css" href="CSS/layout.css">
 		<!--rodape-->
-		<link rel="stylesheet" type="text/css" href="../CSS/rodape.css">
+		<link rel="stylesheet" type="text/css" href="CSS/rodape.css">
 		<!--tabela-->
-		<link rel="stylesheet" type="text/css" href="../CSS/tabela.css">
+		<link rel="stylesheet" type="text/css" href="CSS/tabela.css">
 		<!--menu interno -->
-		<script src="../JS/menu-interno.js"></script>
-		<link rel="stylesheet" type="text/css" href="../CSS/menu.css">
-		<!--tradutor-->
-		<script src="../JS/tradutor.js"></script>
+		<script src="JS/menu-interno.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/menu.css">
+
+		<script type="text/javascript">
+			var userLang = navigator.language || navigator.userLanguage; 
+			
+			if(userLang == "en-US"){
+				window.location = "us/index.html";
+			}else{
+				window.location = "us/index.html";
+			}
+		</script>
 		
 	</head>
 	
@@ -22,7 +30,7 @@
 		<!--header-->
 		<div class="linha header">
 			<ul>
-				<li><a href=""><img class="logo" src="../Imagens/logo.png"/></a><li>
+				<li><a href=""><img class="logo" src="Imagens/logo.png"/></a><li>
 				<li><a href="" class="botao login">Entrar</a></li>
 			</ul>
 		</div>
@@ -33,7 +41,7 @@
 			<div class ="conteudo">
 			<h1> See what's next.</h1>
 			<p> ASSISTA ONDE QUISER. CANCELE QUANDO QUISER.</p>
-			<a href="" class="botao gratis">ASSISTA UM M&EcircS GR&AacuteTIS</a>
+			<a href="" class="botao">ASSISTA UM M&EcircS GR&AacuteTIS</a>
 
 			</div>
 
@@ -93,7 +101,7 @@
 
 					</div>
 					<div class="conteudo interno metade">
-						<img src="../Imagens/01.png" >
+						<img src="Imagens/01.png" >
 					</div>
 			</div>
 
@@ -114,14 +122,14 @@
 				<div class="conteudo">
 						<div class="conteudo interno um-terco">
 							<div class="imagen">
-								<img  src="../Imagens/tv.png" />
+								<img  src="Imagens/tv.png" />
 							</div>
 							<h3>Assista na TV</h3>
 							<p>Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e mais.</p>
 						</div>
 						<div class="conteudo interno um-terco">
 							<div class="imagen">
-								<img src="../Imagens/cel.png"/>
+								<img src="Imagens/cel.png"/>
 							</div>
 							
 							<h3>Assista online ou baixe para assistir mais tarde</h3>
@@ -129,7 +137,7 @@
 						</div>
 						<div class="conteudo interno um-terco">
 							<div class="imagen">
-								<img src="../Imagens/note.png"/>
+								<img src="Imagens/note.png"/>
 							</div>
 							<h3>Assista em qualquer computador</h3>
 							<p>&Eacute s&oacute acessar a Netflix.com</p>
@@ -222,9 +230,9 @@
 			</ul>
 			<ul>
 				<!--seletor de idiomas-->
-				<select onchange="tradutor()" id="idioma">
+				<select>
 		  				<option value="PT">PORTUGUES</option>
-		  				<option value="EN" selected="selected">ENGLISH</option>
+		  				<option value="EN">ENGLISH</option>
 		  
 				</select>
 				<!---->

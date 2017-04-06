@@ -12,18 +12,43 @@ html{
   	color: white;
 }
 body{ 
-    padding: 0;
-    width: 100%;
-    padding-bottom: 0px;
     display: inline-table;
-    background: -webkit-linear-gradient(left  ,rgba(0,0,0,0.7),rgba(0,0,0,0)),
+    background: -webkit-linear-gradient(left  ,rgba(0,0,0,0.90),rgba(0,0,0,0)),
     url("../Imagens/fundo.jpg") no-repeat; /*Safari 5.1-6*/
-    background-size: 100% 45%;
+    background-size: 100%;
 }
+@media only screen and (max-width: 765px) {
+	body{
+		background-size: 120%;		
+	}
+}
+@media only screen and (max-width: 440px) {
+	body{
+		background-size: 150%;		
+	}
+}
+
 h1 {
-	font-size: 77px;
-	margin-bottom: 0px;
-	margin-top: 12%;
+	width: 90%;
+	font-size: 350%;
+	margin-top: 4%;
+	margin-left: 21px;
+}
+@media only screen and (max-width: 564px) {
+	h1{
+		margin-left: 20px;
+		margin-top: 29%;
+		text-align:center;
+	}
+
+}
+@media only screen and (max-width: 440px) {
+	h1{
+		font-size: 220%;
+		margin: 240px 5px 40px 50px;
+		text-align:center;
+	}
+
 }
 
 ul{
@@ -40,10 +65,11 @@ ul{
 
 .logo{
 	width: 30%;
-	margin-top: -15px;
-	margin-left: -2px;
+	margin-top: -21px;
+	margin-left: -21px;
 	
 }
+
 .linha{
 	width: 100%;
 }
@@ -52,37 +78,57 @@ ul{
 
 .botao{
 	background-color: #df0712;
-	border-radius: 3px;
+	border-radius: 2px;
 	color: white;
 	text-decoration: none;
-	font-size: 18px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-
+	font-size: 14px;
+	padding-left: 34px;
+	padding-right: 34px;
+	padding-top: 14px;
+	padding-bottom: 14px;
 }
+
+
 
 .botao.btn2{
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	margin-left: : 60px;
+
 		}
 .botao:hover{
 	background-color: #f40612;
 }
 
+.gratis{
+	margin: auto 21px;
+}
+@media screen and (max-width: 564px) {
+	.gratis{
+		margin: 0;
+		text-align:center;
+	}
+}
+
 .login{
 	position: absolute;
-	right: 6%;
-	top: 5%;
+	background-color: #df0712;
+	border-radius: 3px;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	margin-right: -20px;
+	right: 85px;
+	top: -4px;
 
 }
 .topo{
-	height: 480px;
-	padding: 40px;
+	height: 360px;
 }
 
 
@@ -90,11 +136,41 @@ ul{
 .conteudo{	
 	display: inline-block;
 	position: relative;
+	width: 100%;
+	height: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+	.conteudo{
+		margin-top: 120px;
+	}
+}
+@media screen and (max-width: 564px) {
+	.conteudo{
+		margin-top: 0px;
+	}
 }
 .conteudo p{
-	font-size: 26px;
-	margin-top: 15px;
+	font-size: 119%;
+	margin-left: 21px;
+	margin-right: 70px;
+	margin-bottom: 30px; /*afasta o botao"Assista um mes gratis"*/
+	margin-top: -30px;
 }
+@media screen and (max-width: 564px){
+	.conteudo p{
+	font-size: 140%;
+	text-align: center;
+	margin-top: -30px
+	}
+}
+@media screen and (max-width: 320px){
+	.conteudo p{
+	font-size: 100%;
+	text-align: center;
+	margin-top: 10px
+	}
+}																																								
 
 .conteudo img{
 	width:100%;
@@ -120,9 +196,21 @@ ul{
 
 }
 .conteudo.interno p{
-	text-align: center;
+	font-size: 23px;
+	text-align: left;
 
 }
+@media screen and (max-width: 564px) {
+	.conteudo.interno p{
+	height: 23	0px;
+	width: 100%;
+	margin-left: 50px;
+	text-align: center;
+	
+
+	}
+}
+
 
 .conteudo.metade{
 	width: 45%;
@@ -146,4 +234,11 @@ ul{
 	width: 100%;
 	height: 100%;
 }
+.menu-item{
+																																																																																																																																																																																																																																																																																																																																																																																																																															
+}
+@media screen and (max-width: 320px) {
+	.linha.menu-interno{
 
+	}
+}
