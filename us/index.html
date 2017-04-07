@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-			<!-- META TAG para usar as media querys-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Netflix Brazil - Watch TV Shows Online, Watch Movies Online</title>
+		
+		<!-- meta tag Media query-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--layout geral da pagina-->
 		<link rel="stylesheet" type="text/css" href="../CSS/layout.css">
 		<!--rodape-->
@@ -15,8 +16,6 @@
 		<link rel="stylesheet" type="text/css" href="../CSS/menu.css">
 		<!--tradutor-->
 		<script src="../JS/tradutor.js"></script>
-	
-		
 	</head>
 	
 
@@ -25,8 +24,9 @@
 		<!--header-->
 		<div class="linha header">
 			<ul>
-				<li><a href=""><img class="logo" src="../Imagens/logo.png"/></a><li>
-				<li><a href="" class="botao login">Entrar</a></li>
+				<li><a href=""><img class="logo" src="../Imagens/logo.png"/></a>
+				<li>
+				<li ><a href="" class="botao login">Entrar</a></li>
 			</ul>
 		</div>
 		<!---->
@@ -35,8 +35,8 @@
 			
 			<div class ="conteudo">
 			<h1> See what's next.</h1>
-			<p> ASSISTA ONDE QUISER. CANCELE QUANDO QUISER.</p>
-			<a href="" class="botao gratis">ASSISTA UM M&EcircS GR&AacuteTIS</a>
+			<p> WATCH ANYWHERE. CANCEL ANYTIME.</p>
+			<a href="" class="botao meio">JOIN FREE FOR A MONTH</a>
 
 			</div>
 
@@ -51,8 +51,13 @@
 					<li ><a onclick="menu(1)">
 						<div id="cancele"  >
 							<div class="menu-item active" >
-								<p><b> Sem compromisso</b></p>
-								<p><b> Cancele online quando quiser</b></p>
+								<div class="grande">
+									<p><b> Sem compromisso</b></p>
+									<p><b> Cancele online quando quiser</b></p>
+								</div>
+								<div class ="pequena">
+									<p><b> Cancelar</b></p>
+								</div>
 							</div> 
 							<div class="linha barra-menu active" id="bar-1"></div>
 						</div>
@@ -65,7 +70,13 @@
 					<li ><a  onclick="menu(2)">
 						<div id="devices">
 							<div class="menu-item">
-							<p><b> Assista onde quiser, quanto quiser</b></p>
+								<div class="grande">
+									<p><b> Assista onde quiser, quanto quiser</b></p>
+								</div>
+								<div class="pequena">
+									<p><b> Aparelhos</b></p>
+								</div>
+							
 							
 						    </div>
 						    <div class="linha barra-menu" id="bar-2"></div>
@@ -76,8 +87,12 @@
 					<li ><a onclick="menu(3)">
 						<div id="planos">
 							<div class="menu-item">
-								<p><b> Escolha seu plano</b></p>
-							
+								<div class="grande">
+									<p><b> Escolha seu plano</b></p>
+								</div>
+								<div class="pequena">
+									<p><b>Planos</b></p>
+								</div>
 							</div>
 							<div class="linha barra-menu " id="bar-3"></div>
 						</div>
@@ -89,40 +104,40 @@
 		<!---->
 		<div class="linha conteudo menu">
 			<!--primeira div do menu-->
-			<div class="conteudo" id="1">
-					<div class="conteudo interno metade">
+			<div class="conteudo2" id="1">
+					<div class="metade">
 						<p>Se voc&ecirc decidir n&atildeo continuar a assinatura, tudo bem. Sem compromisso. Cancele online quando quiser.</p>
-						<a href="" class="botao">ASSISTA UM MES GRATIS</a>
+						<a href="" class="botao meio">ASSISTA UM MES GRATIS</a>
 
 					</div>
-					<div class="conteudo interno metade">
+					<div class="metade">
 						<img src="../Imagens/01.png" >
 					</div>
 			</div>
 
 			<!---->
 			<!--segunda div do menu -->
-			<div class="conteudo" id="2">
-				<div class="conteudo"style="margin-top: 40px">
-					<div class="conteudo dois-tercos">
+			<div class="conteudo2" id="2">
+				<div class="linha">
+					<div class="dois-tercos">
 						<p>Assista a s&eacuteries e filmes quando quiser, onde quiser. Sugest&otildees personalizadas para voc&ecirc.</p>
 
 					</div>
-				<div class="conteudo direita">
-					<a href="" class="botao btn2">ASSISTA UM M&EcircS GR&AacuteTIS</a>
-				</div>
+					<div class="um-terco">
+					<a  href="" class="botao btn2">ASSISTA UM M&EcircS GR&AacuteTIS</a>
+					</div>
 				</div>
 				
 				
-				<div class="conteudo">
-						<div class="conteudo interno um-terco">
+				<div class="linha">
+						<div class="interno um-terco">
 							<div class="imagen">
 								<img  src="../Imagens/tv.png" />
 							</div>
 							<h3>Assista na TV</h3>
 							<p>Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e mais.</p>
 						</div>
-						<div class="conteudo interno um-terco">
+						<div class="interno um-terco">
 							<div class="imagen">
 								<img src="../Imagens/cel.png"/>
 							</div>
@@ -130,7 +145,7 @@
 							<h3>Assista online ou baixe para assistir mais tarde</h3>
 							<p>Dispon&Iacutevel em smartphones e tablets onde quer que voc&ecirc v&aacute.</p>
 						</div>
-						<div class="conteudo interno um-terco">
+						<div class="interno um-terco">
 							<div class="imagen">
 								<img src="../Imagens/note.png"/>
 							</div>
@@ -143,7 +158,7 @@
 		</div>
 		<!---->
 		<!--Terceira div do menu -->
-			<div class="conteudo-menu-interno" id="3">
+			<div class="conteudo2" id="3">
 				<div class="flutuante">
 					<p>Escolha seu plano e assista a tudo na Netflix.</p>
 					<a href="" class="botao">ASSISTA UM M&EcircS GR&AacuteTIS</a>
@@ -226,7 +241,7 @@
 			<ul>
 				<!--seletor de idiomas-->
 				<select onchange="tradutor()" id="idioma">
-		  				<option value="PT">PORTUGUES</option>
+		  				<option value="PT" >PORTUGUES</option>
 		  				<option value="EN" selected="selected">ENGLISH</option>
 		  
 				</select>

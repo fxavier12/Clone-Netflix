@@ -35,3 +35,18 @@
 	color: white;
 	text-decoration: underline;
 }
+
+
+@media  only screen and (max-width: 400px){
+	
+	.rodape{
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.rodape ul li {
+		width: 40%;
+		margin-right: 10px;
+
+	}
+}
