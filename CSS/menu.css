@@ -8,7 +8,6 @@
 .fundo-menu{
 	background-color: #141414;
 	width: 100%;
-	height: 20%;
 	border-bottom: 1px solid gray;
 }
 .menu-interno ul{
@@ -64,7 +63,7 @@
 	background-image: url("../Imagens/close-white.png");
 	background-repeat: no-repeat;
     background-position: top;
-    background-size: 30% 60%;
+    background-size: 35%;
     width: 100%;
 	height: 80%;
 	background-color: #141414;
