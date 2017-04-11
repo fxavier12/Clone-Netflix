@@ -5,11 +5,14 @@
 * menu interno netflix
 */
 
+
+
 .fundo-menu{
 	background-color: #141414;
 	width: 100%;
-	height: 20%;
+	height: 162px;
 	border-bottom: 1px solid gray;
+
 }
 .menu-interno ul{
 	width: 80%;
@@ -19,10 +22,17 @@
 }
 .menu-interno ul li{
 	width: 32%;
-	height: 180px;
+	height: 158px;
 	display: inline-block;
 	vertical-align: top;
+	fill: #757575;
 }
+
+.menu-interno ul li :hover{
+	fill: white; 
+	color: white;
+}
+
 
 
 .menu-interno ul li a{
@@ -33,12 +43,15 @@
 	color: #757575;
 }
 
-.menu-interno ul li a:hover{
-	color: white;
+.icon{
+	height: 49px;
+	width: 80%;
+	display: block;
+	margin: auto;
+	
 }
-.active{
-	color: white;
-}
+
+
 .active a{
 	width: 100%;
 	background-color: #141414;
@@ -60,58 +73,26 @@
 	margin-top: 20px;
 }
 
-#cancele{
-	background-image: url("../Imagens/close-white.png");
-	background-repeat: no-repeat;
-    background-position: top;
-    background-size: 30% 60%;
-    width: 100%;
+
+.item {
+	width: 100%;
 	height: 80%;
+	margin-top: 20px;
+	position: relative;
 	background-color: #141414;
-	position: relative;
-	margin-top: 20px;
 }
 
 
 
-#devices{
-	background-image: url("../Imagens/devices-gray.png");
-	background-repeat: no-repeat;
-    background-position:  top;
-    background-size: 50% 50%;
-    width: 100%;
-	height: 80%;
-	position: relative;
-	margin-top: 20px;
-}
-
-#devices:hover{
-	background-image: url("../Imagens/devices-white.png");
-}
-
-#planos{
-	background-image: url("../Imagens/etiqueta-gray.png");
-	background-repeat: no-repeat;
-    background-position: top;
-    background-size: 30% 60%;
-    width: 100%;
-	height: 80%;
-	position: relative;
-	margin-top: 20px;
-}
-#planos:hover{
-	background-image: url("../Imagens/etiqueta-white.png");
-}
 .menu-item {
-	position: absolute;
-	bottom: 0;
+	margin-top: 10px;
 	width: 100%;
 }
 .menu-item p{
-	text-align: center;
-	font-size: 18px;
-	margin: 0px;
 
+	text-align: center;
+	font-size: 15px;
+	margin: 0px;
 
 }
 
@@ -120,7 +101,62 @@
 	margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 1000px){
+	.item{
+		margin-top: 10px;
+	}
+	.fundo-menu{
+		height: 147px;
+	}
 
+	.menu-interno ul li{
+
+		height: 151px;
+	
+	}
+
+
+}
+
+@media only screen and (max-width: 900px){
+	.icon{
+		margin: auto;
+		height: 34px;
+	
+	}
+
+	.fundo-menu{
+		height: 120px;
+	}
+
+	.menu-interno ul li{
+
+		height: 118px;
+	
+	}
+}
+
+@media only screen and (max-width: 700px){
+
+	.item{
+		margin-top: 2px;
+	}
+
+	.icon{
+		margin: auto;
+		height: 34px;
+	
+	}
+	.fundo-menu{
+		height: 85px;
+	}
+
+	.menu-interno ul li{
+
+		height: 84px;
+	
+	}
+}
 @media  only screen and (max-width: 400px){
 	
 	.menu-interno ul li{
@@ -134,24 +170,13 @@
 		margin-top: -10px;
 	}
 
-	#cancele{
-		margin-top: -10px;
-		
-	}
-	#devices{
-		margin-top: -10px;
-		
-	}
-	#planos{
-		margin-top: -10px;
-		
-	}	
+	
 
 	.barra-menu{
 		width: 100%;
 		height: 2px;
 		bottom: -10px;
-       }		
+      }		
 
 	
 }
