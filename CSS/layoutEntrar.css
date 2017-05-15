@@ -1,0 +1,39 @@
+html{
+	background: url("../Imagens/login-the-crown_2-1500x1000.jpg") no-repeat;
+	background-size: 100%;
+	height: 100%;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+body{
+	height: 100%;
+}
+.logo{
+	width: 175px;
+	margin-left: 37px;
+	margin-top: -5px;
+}
+.caixaEntrar{
+	width: 410px;
+	height: 533px;
+	background-color: #f3f3f3;
+	margin: auto;
+	margin-top: -4px;
+	padding-top: 20px;
+	padding-left: 48px; 
+}
+#numero{
+	height: 35px;
+	width: 360px;
+	margin-bottom: 20px;
+}
+#senha{
+	height: 35px;
+	width: 360px;
+	margin-bottom: 65px;
+}
+.forget{
+	font-size: 13px;
+}
+.botao{
+	width: 360px;
+}
