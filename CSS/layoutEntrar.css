@@ -91,7 +91,8 @@ button{
     height: 41px;
     font-size: 14px;
     color: black;
-    border: 1px solid #333;
+    border: 1px solid #b3b3b3;
+    border-radius: 2px;
     padding-left: 50px;
     background-image: url(../Imagens/globe.png);
     background-repeat: no-repeat;
@@ -100,9 +101,47 @@ button{
 
 @media  only screen and (max-width: 1440px){
 	html{
-		background: url("../Imagens/login-the-crown_2-1500x1000.jpg") no-repeat;
 		background-size: cover;
-		height: 100%;
-		font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+		}
+}
+
+@media  only screen and (max-width: 740px){
+	html{
+		background-size: 0%;
+	}
+	.caixaEntrar{
+		width: 100%;
+		height: 500px;
+		padding-left: 7%;
+	}
+
+	.rodape{
+		margin-top: auto;
+		padding-left: 7%; 
+		border: 1px solid #e6e6e6;
+	}
+	#numero{
+		width: 85%;
+	}
+	#senha{
+		width: 85%;
+	}
+	button{
+		width: 85%;
+	}
+}
+
+@media  only screen and (max-width: 440px){
+	.head{
+		height: 49px;
+	}
+	.logo{
+		margin-top: 10px;
+		margin-left: 11px;
+		width: 76px;
+	}	
+	.caixaEntrar{
+		padding-top: 0px;
+		border: 1px solid #e6e6e6;
 	}
 }
