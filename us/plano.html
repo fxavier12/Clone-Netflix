@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Netflix" content="">
+        <title>Netflix-Assista um mês gratis</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/layoutPlano.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/tabelaPlano.css">
+        <link rel="author" href="humans.txt">
+        <script src="../JS/plano.js"></script>
+    </head>
+    <body>
+        <div class="top">
+        	<div class="ico">
+				<a href="index.html" ><img class="logo" src="../Imagens/logo.png"/></a>
+				<a href="../br/entrar.html" class="botao login">Sign</a>
+			</div>
+        </div>
+        <div class="mid">
+        	<h1>Choose the plan that’s right for you</h1>
+        	<p>Downgrade or upgrade at any time</p>
+        	
+        	<div class="quadro">
+	        	<table class="tabela" >
+					<tr >
+					  	<th class= "titulo"></th>
+						    <th><div id="basico" onclick="selecao('basico')" class="caixa">
+        						Básico
+        						</div>
+        					</th>
+						    <th><div id="padrao" onclick="selecao('padrao')" class="caixa">
+        						Padrão
+        						</div>
+        					</th> 
+						    <th><div id="premium" onclick="selecao('premium')" class="caixa">
+        						Premium
+        						</div>
+        					</th>					    
+				    </tr>
+					  <tr class= "titulo2">
+					  	<td colspan="3" >
+					 	 	Monthly price after free month ends on 6/27/17
+					 	 </td>
+					  </tr>
+
+					  <tr>
+					    <td class= "titulo" >Monthly price after free month ends on 6/27/17</td>
+					    <td id="selBasico" class="corBasico">BRL19,90</td>		
+					    <td id="selPadrao" class="corPadrao">BRL22,90</td>
+					    <td id="selPremium" class="corPremium">BRL29,90</td>
+					  </tr>
+					  <tr class= "titulo2">
+					  	<td colspan="3" >
+					 		HD available
+					 	 </td>
+					  </tr>
+
+					  <tr>
+					   <td class= "titulo" >HD available</td>
+					    <td id="selBasico1" class="uncheck"></td>
+					    <td id="selPadrao1" class="check"></td>
+					    <td id="selPremium1" class="check"></td>
+					  </tr>
+
+					  <tr class= "titulo2">
+					  	<td colspan="3" >
+					 		Ultra HD available 
+					 	 </td>
+					  </tr>
+
+
+					  <tr>
+					   <td class= "titulo" >Ultra HD available</td>
+					    <td id="selBasico2" class="uncheck"></td>
+					    <td id="selPadrao2" class="uncheck"></td>
+					    <td id="selPremium2" class="check"></td>
+					  </tr>
+					  <tr class= "titulo2">
+					  	<td colspan="3" >
+					 		Screens you can watch on at the same time
+					 	 </td>
+					  </tr>
+
+					  <tr>
+					    <td class= "titulo" >Screens you can watch on at the same time</td>
+					    <td id="selBasico3" class="corBasico">1</td>
+					    <td id="selPadrao3" class="corPadrao">2</td>
+					    <td id="selPremium3" class="corPremium">4</td>
+					  </tr>
+					  <tr class= "titulo2">
+					  	<td colspan="3" >
+					 		Watch on your laptop, TV, phone and tablet
+					 	 </td>
+					  </tr>
+
+					  <tr>
+					    <td class= "titulo" >Watch on your laptop, TV, phone and tablet</td>
+					    <td id="selBasico4" class="check"></td>
+					    <td id="selPadrao4" class="check"></td>
+					    <td id="selPremium4" class="check"></td>
+					  </tr>
+					  <tr class= "titulo2">
+					  	<td colspan="3" >
+					 		Unlimited movies and TV shows
+					 	 </td>
+					  </tr>
+
+					  <tr>
+					    <td class= "titulo" >Unlimited movies and TV shows</td>
+					    <td id="selBasico5" class="check" ></td>
+					    <td id="selPadrao5" class="check"></td>
+					    <td id="selPremium5" class="check"></td>
+					  </tr>
+					  <tr class= "titulo2">
+					  	<td colspan="3" >
+					 		Cancel anytime
+					 	 </td>
+					  </tr>
+
+					   <tr>
+					    <td class= "titulo" >Cancel anytime</td>
+					    <td id="selBasico6" class="check"></td>
+					    <td id="selPadrao6" class="check"></td>
+					    <td id="selPremium6" class="check"></td>
+					  </tr>
+					  <tr class= "titulo2">
+					  	<td colspan="3" >
+					 		First month free
+					 	 </td>
+					  </tr>
+
+					   <tr>
+					    <td class= "titulo" >First month free</td>
+					    <td id="selBasico7" class="check"></td>
+					    <td id="selPadrao7" class="check"></td>
+					    <td id="selPremium7" class="check"></td>
+					  </tr>
+					</table>
+				</div>	
+			<div class=termos>
+				<h5>HD and Ultra HD availability subject to your Internet service and device capabilities. Not all content available in HD or Ultra HD. See more details in </h5>
+				<a href="" class="termosUso">Terms of use</a>
+			</div>
+			<div class="quadroCad">
+				<div class="cadastro">
+					<h2>Sign up to start your free month</h2>
+					<h3>Create your account:</h3>
+					<div class="conta">
+						<span>Name</span>
+						<div class="nome">
+							<input type="text" id="nome">
+						</div>
+						<span>Email</span>
+						<div class="email">
+							<input type="text" id="email">
+						</div>
+						<span>Adress</span>
+						<div class="endereco">
+							<input type="text" id="endereco">
+						</div>
+						<span>Choose a password (4-50 caracters)</span>
+						<div class="senha">
+							<input type="text" id="senha">
+						</div>
+					</div>
+					
+					<button class="botao criar" onclick="">Register</button><p id="msg"></p>
+					
+				</div>
+				<div class="passo">
+					<span class="frase1">Just two more steps and you're done!</span>
+					<span class="frase2">We hate paperwork, too.</span>
+				</div>
+			</div>
+
+        </div>
+        <div class="rodape">
+        	<div class="duvidas">
+				<span>Questions? Call </span>
+				<a href="" class="ligue">0800-887-0201</a>
+			</div>
+			<div class="termos1">
+				<a href="" class="termos2">Terms of use</a>
+				<a href="" class="privacidade">Privacy</a>
+				<a href="" class="cookies">Cookie Preferences</a>
+			</div>
+			
+			<!--seletor de idiomas-->
+			<select class = "idiomas" onchange="tradutor()" id="idioma">
+		  		<option value="PT" selected="selected" >PORTUGUES</option>
+		  		<option value="EN" >ENGLISH</option>
+			</select>
+        </div>
+    </body>
+</html>
